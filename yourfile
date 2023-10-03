@@ -1,2 +1,13 @@
 this is yourfile line from mr.unknown instance 
 thank you
+
+this is added line of the mr.unknown instance
+
+#!/bi/bash
+sudo su
+yum update -y
+yum install httpd -y
+cd /var/www/html
+echo "i am shaik babu. i completed b.tech in st,anns college of engineering and technology" > index.html
+service httpd start
+chkconfig httpd oiin
